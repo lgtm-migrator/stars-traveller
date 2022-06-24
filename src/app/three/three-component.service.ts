@@ -124,6 +124,7 @@ export class ThreeComponentService {
       this._targetService.goToThisPosition(
         threeComponentModel.mainModel.currentIntersected.parent.position
       );
+      threeComponentModel.mainModel.menuOptions.displayTooltip = true;
     }
   }
 
